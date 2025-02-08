@@ -13,9 +13,8 @@
     "build": "npx @tailwindcss/cli -i ./page/css/input.css -o ./page/css/output.css --minify"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.0.4",
     "tailwindcss": "^4.0.4"
   },
   "private": true
 }
-
-
