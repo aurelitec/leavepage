@@ -1,5 +1,10 @@
 # leave page
 
+[![MIT License badge](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![RepoSize](https://img.shields.io/github/repo-size/aurelitec/leavepage.svg)](https://github.com/aurelitec/leavepage)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b0a61063-c7a6-422f-84a0-1e71066aac0b/deploy-status)](https://app.netlify.com/sites/leavepage/deploys)
+[![Webpage](https://img.shields.io/website?url=https%3A%2F%2Fleavepage.aurelitec.com%2F&label=webpage)](https://leavepage.aurelitec.com/)
+
 Just leave the page (go to another tab or app or minimize the window) and get a reaction.
 
 A useless static HTML page and Progressive Web App.
