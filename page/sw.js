@@ -1,10 +1,10 @@
-// Copyright 2017-2022 TechAurelian. All rights reserved.
+// Copyright 2017-2025 Aurelitec. All rights reserved.
 // Use of this source code is governed by an MIT-style license that can be
 // found in the LICENSE file.
 
 'use strict';
 
-var CACHE_NAME = 'leavepage-cache-v3';
+const CACHE_NAME = 'leavepage-cache-v4';
 const URLS_TO_CACHE = [
   '/',
   '/index.html',

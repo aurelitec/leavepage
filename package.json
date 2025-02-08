@@ -1,16 +1,21 @@
 {
   "name": "leavepage",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "version": "1.0.1",
+  "description": "Just leave the page and get a reaction. A useless static page and PWA.",
+  "homepage": "https://www.aurelitec.com/leavepage/",
+  "bugs": "https://github.com/aurelitec/leavepage/issues",
+  "license": "MIT",
+  "author": "Aurelitec <support@aurelitec.com> (https://www.aurelitec.com/)",
+  "repository": "github:aurelitec/leavepage",
   "scripts": {
     "clean": "rm ./page/css/output.css",
-    "start": "npx tailwindcss -i ./page/css/input.css -o ./page/css/output.css --watch",
-    "build": "npx tailwindcss -i ./page/css/input.css -o ./page/css/output.css --minify"
+    "start": "npx @tailwindcss/cli -i ./page/css/input.css -o ./page/css/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./page/css/input.css -o ./page/css/output.css --minify"
   },
-  "author": "TechAurelian",
-  "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.1.4"
-  }
+    "tailwindcss": "^4.0.4"
+  },
+  "private": true
 }
+
+
